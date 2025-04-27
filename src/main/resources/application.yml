@@ -1,0 +1,7 @@
+rest-client:
+  connection-timeout: 8000
+  socket-timeout: 6000
+
+server:
+  servlet:
+    context-path: /avalara

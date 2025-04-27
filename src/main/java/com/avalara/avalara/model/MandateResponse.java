@@ -10,7 +10,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MandateResponse {
-    @JsonProperty("nextLink")
+    @JsonProperty("@nextLink")
     private String nextLink;
     private List<Mandate> value;
 }
